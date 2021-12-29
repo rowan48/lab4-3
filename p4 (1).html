@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <Registration>
+    </title>
+    <style>
+        h1 {
+            color: rgb(0, 128, 53);
+            text-align: left;
+
+        }
+        
+        .red {
+            color: red;
+        }
+        .blue{
+            color: blue;
+        }
+        .dot {
+            margin: auto;
+            border: 3px dashed #078035;
+            border-right: 0px;
+            border-left: 200px;
+            text-align: left;
+            background-color: rgb(70, 201, 135);
+
+        }
+        .row {
+           display: flex;
+           justify-content: left;
+           padding: 10px;
+}
+        #phone{
+            text-align: left;
+            background-color: rgb(70, 201, 135);
+
+        }
+        #centere{
+            text-align: center;
+        }
+        .bckgnd{
+            height: 200px;
+            width: 200px;
+            border: 5px white solid;
+            background-color: rgb(70, 201, 135);
+            text-align: right;
+            padding-left: 100px;
+        }
+        .container{
+            width: 100px;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: white">
+    <h1>Register-Create Account</h1>
+    <div class=" dot">
+        <span > <span class="black ">field marked with</span> &nbsp;
+        <span class="red">*</span>&nbsp;</span>
+        <span> compulsory fields &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    </span></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"text-align="right"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span>Your  Name </span><input type="text" id="the name" size="80px">
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span> Email-ID </span>&nbsp;</span>&nbsp;<input type="text" id="the name" size="100px">
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span> Alternate Email ID </span></span><input type="text" id="the name" size="100px">
+    <br>
+    <div class="row">
+        <p class="phone"> <span class="bckgnd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your phone</span></p>   &nbsp;
+        <label class="country code">
+            country code<br>
+            <input type="text" id="country code"  label ="country code" placeholder="  "> 
+        </label>&nbsp;
+        <label class="city code">
+            city code<br>
+            <input type="text" id="city code" label="city code" placeholder=" ">
+        </label>&nbsp;
+        <label class="phone number">
+            phone number<br>
+            <input type="text" id="phine number" label="phone number" placeholder=" ">
+        </label>
+
+    </div>
+    <span class="bckgnd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile phone</span> <input type="text" id="Mobile phone" placeholder="  "><br>
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span> Your Postal Address</span>  <input type="text" id="your postal address" placeholder="  "><br>
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span><label for="country">country</label></span> 
+    <select name="....select one...." id="country"><option>
+        --------------------select one----------------------
+    </option></select>
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</span>Password </span><input type="password" id="password" placeholder="  "><br>
+    <br>
+    <br>
+    <br>
+    <span class="bckgnd"><span class = "red">&nbsp;&nbsp;&nbsp;*</span>re enter your password </span> <input type="password" id="password" placeholder="  "><br>
+    <center><input type="checkbox"> <span class="centere">I accept the <span class="blue"><u><b>terms of use</b></u></span></span><br></center>
+    <pre>
+        <center><span class="centere"><button type="button">Continue </button>&nbsp;&nbsp;&nbsp;<button type="button">Reset</button></span></center>
+        <!--<center><button type="button">Reset</button></span></center>-->
+    </pre>
+</body>
+
+
+</html>
